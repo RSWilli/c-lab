@@ -12,6 +12,7 @@
     "@types/react-dom": "^16.9.0",
     "d3-color": "^1.4.1",
     "d3-interpolate": "^1.4.0",
+    "lodash.debounce": "^4.0.8",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -44,6 +45,7 @@
   "devDependencies": {
     "@types/d3-color": "^1",
     "@types/d3-interpolate": "^1",
+    "@types/lodash.debounce": "^4",
     "@types/prop-types": "^15",
     "@types/react-is": "^16",
     "@types/styled-components": "^5"

@@ -54,6 +54,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "npm:24.9.1"
       ],
       [
+        "@types/lodash.debounce",
+        "npm:4.0.6"
+      ],
+      [
         "@types/node",
         "npm:12.12.50"
       ],
@@ -84,6 +88,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       [
         "d3-interpolate",
         "npm:1.4.0"
+      ],
+      [
+        "lodash.debounce",
+        "npm:4.0.8"
       ],
       [
         "prop-types",
@@ -127,6 +135,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/d3-color", "npm:1.2.2"],
             ["@types/d3-interpolate", "npm:1.3.1"],
             ["@types/jest", "npm:24.9.1"],
+            ["@types/lodash.debounce", "npm:4.0.6"],
             ["@types/node", "npm:12.12.50"],
             ["@types/prop-types", "npm:15.7.3"],
             ["@types/react", "npm:16.9.43"],
@@ -135,6 +144,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/styled-components", "npm:5.1.1"],
             ["d3-color", "npm:1.4.1"],
             ["d3-interpolate", "npm:1.4.0"],
+            ["lodash.debounce", "npm:4.0.8"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:65d458ecc61307890ef7561ec6ca630d44d4dae68f4ba93f03b015405093aaceb37903a1bff8db0ac0b9c6062fdb49821c870025b5c27fbc85fafa76cca81dd5#npm:16.13.1"],
@@ -2600,6 +2610,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@types/lodash", [
+        ["npm:4.14.157", {
+          "packageLocation": "./.yarn/cache/@types-lodash-npm-4.14.157-e8f991faba-ea8d890a4d.zip/node_modules/@types/lodash/",
+          "packageDependencies": [
+            ["@types/lodash", "npm:4.14.157"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/lodash.debounce", [
+        ["npm:4.0.6", {
+          "packageLocation": "./.yarn/cache/@types-lodash.debounce-npm-4.0.6-38f73647d4-64952797f5.zip/node_modules/@types/lodash.debounce/",
+          "packageDependencies": [
+            ["@types/lodash.debounce", "npm:4.0.6"],
+            ["@types/lodash", "npm:4.14.157"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@types/minimatch", [
         ["npm:3.0.3", {
           "packageLocation": "./.yarn/cache/@types-minimatch-npm-3.0.3-c8b0625f84-672ccdac19.zip/node_modules/@types/minimatch/",
@@ -4358,6 +4387,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/d3-color", "npm:1.2.2"],
             ["@types/d3-interpolate", "npm:1.3.1"],
             ["@types/jest", "npm:24.9.1"],
+            ["@types/lodash.debounce", "npm:4.0.6"],
             ["@types/node", "npm:12.12.50"],
             ["@types/prop-types", "npm:15.7.3"],
             ["@types/react", "npm:16.9.43"],
@@ -4366,6 +4396,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/styled-components", "npm:5.1.1"],
             ["d3-color", "npm:1.4.1"],
             ["d3-interpolate", "npm:1.4.0"],
+            ["lodash.debounce", "npm:4.0.8"],
             ["prop-types", "npm:15.7.2"],
             ["react", "npm:16.13.1"],
             ["react-dom", "virtual:65d458ecc61307890ef7561ec6ca630d44d4dae68f4ba93f03b015405093aaceb37903a1bff8db0ac0b9c6062fdb49821c870025b5c27fbc85fafa76cca81dd5#npm:16.13.1"],
@@ -10026,6 +10057,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash._reinterpolate-npm-3.0.0-3c62ca439e-27513557d6.zip/node_modules/lodash._reinterpolate/",
           "packageDependencies": [
             ["lodash._reinterpolate", "npm:3.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.debounce", [
+        ["npm:4.0.8", {
+          "packageLocation": "./.yarn/cache/lodash.debounce-npm-4.0.8-f1d6e09799-b6042bd8c0.zip/node_modules/lodash.debounce/",
+          "packageDependencies": [
+            ["lodash.debounce", "npm:4.0.8"]
           ],
           "linkType": "HARD",
         }]
